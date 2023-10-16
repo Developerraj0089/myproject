@@ -1,0 +1,572 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+  
+}
+
+a{
+    color: #ff5733;
+ 
+}
+/* navbarrrr */
+
+
+.nav-link{
+    color: white;
+}
+.logo{
+    color: #ff5733;
+}
+.title{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.container-fluid h1 a {
+    font-size: 2rem;
+}
+.text-right{
+    text-align: right;
+
+}
+.position-relative{
+    position: relative;
+}
+.site-menu li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.site-menu  li a{
+    padding: 10px 0px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.site-menu a{
+display: inline-block;
+text-transform: uppercase;
+  letter-spacing: .1em;
+    font-size: 14px;
+}
+.site-menu .active a{
+    color: #ff5733;
+    position: relative;
+}
+ li.cta a{
+    border: 2px solid #3f4046;
+    color:#ff5733;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-toggler{
+    font: white;
+}
+.text-white{
+    color: #fff;
+}
+.cc-title{
+
+    color: white;
+    font-size: 30px;
+   margin: 30px 0px 30px 0px;
+
+}
+.title{
+    color: red;
+    font-size: 90px;
+}
+.but-1{
+    padding: 10px 25px 10px 25px;
+    background-color:#ff5733;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    
+}
+
+/* hover effect */
+li a::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    background-color: #ff5733;
+    transition: transform 0.25s ease-in-out;
+}
+
+li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+li a:hover{
+    color: #ff5733;
+}
+.fifth-btn-custom::after
+{    content: 'more blog post';
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    transform: scaleX(0);
+    background-color: #ff5733;
+    transition: transform 0.25s ease-in-out;
+
+}
+/* .fifth-btn-custom:hover::after{
+    transform: scaleX(1);
+    color: #fff;
+    transform-origin: bottom left;
+    
+} */
+
+.fifth-btn-custom:hover{
+    color: white;
+    background-color: #ff5733;
+    transition: 2s;
+}
+
+
+
+
+
+/* second secs */
+.sec-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin: 150px 0 150px 110px;
+}
+.sec-title{
+    color: white;
+    font-size: 60px;
+    padding: 0 0 0 50px;
+   
+    
+}
+.sec-content{
+    color: rgba(255, 255, 255, 0.489);
+    margin-top: 60px;
+    font-size:20px;
+
+    
+}
+.speak{
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+.speak h2{
+    font-size: 70px;
+    color: #ff5733;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+/* third sec */
+.third-container{
+    margin: 0 0 0 90px;
+}
+.third-content{
+    color: rgba(255, 255, 255, 0.62);
+}
+.third-cc{
+padding: 0 0 0 40px;
+}
+.third-title{
+    margin: 0 0 20px -60px;
+
+}
+.third-container i{
+
+    color: red;
+     width: 20px; 
+     height: 20px; 
+     border-radius: 100%; 
+    font-size: 20px;
+    padding: 15px;
+margin: 0 0 0 0px;
+}
+.program{
+    margin-top: 15%;
+    margin-bottom: 8%;
+    padding-bottom: 7%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* four sec */
+.container-four{
+    padding-top: 250px;
+}
+hr.line1{
+width: 100px;
+border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* fifth sec */
+.fifth-title h2{
+    color: #ff5733;
+    padding-bottom: 20%;
+    font-size: 60px;
+}
+.fifth-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.time{
+    margin-left: 30px;
+}
+
+.fifth-cont{
+    color:#cfcfd1;
+    margin-top: 30%;
+    padding-top: 2%;
+
+}
+.fifth-sec{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.fifth-sec h2{
+    font-size: 50px;
+
+}
+.fifth-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 2%;
+
+}
+.fifth-btn-custom{
+    padding: 16px 30px;
+    background: #3f4046;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    letter-spacing: .2em;
+}
+
+
+
+
+
+
+
+
+
+/* other */
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.post-meta img{
+    border-radius: 50%;
+    width: 36px;
+}
+.blog-entry h2{
+    font-size: 20px;
+}
+.blog-entry a{
+    color: #fff;
+    text-decoration: none;
+}
+.blog-entry img{
+    transform: .5s all ease-in-out;
+
+}
+.blog-entry:hover{
+box-shadow: 2px 2px 2px 2px white ;
+    transition: .5s;
+    transform: scale(1.05);
+    opacity: 0.75;
+    background-color:rgb(221, 9, 44);
+}
+.footer-heading{
+    font-size: 16px;
+    color: #818186;
+}
+.list-unstyle{
+    list-style: none;
+    padding-left: 0px;
+
+}
+.site-footer ul li{
+    margin-bottom: 10px;
+}
+.ml-auto{
+    margin-left: auto;
+
+}
+.site-footer{
+    padding:8em 0;
+    background:#1b1d24 ;
+}
+.border-top{
+   border-top:1px solid rgba(255, 255, 255, 0.1) ; 
+}
+.copy{
+    letter-spacing: .1rem;
+}
+/* about css */
+/* .row{
+    display: flex;
+} */
+.get{
+    font-size: 1.7rem;
+}
+.about{
+    font-size: 6rem;
+    color: red;
+}
+.site-hero{
+    margin-bottom: 10rem;
+    margin-top: 8rem;
+}
+.welcome{
+    font-size: 3rem;
+}
+.conference{
+    color: red;
+}
+.blog-entry img{
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+/* speaker  css */
+.line{
+    border-bottom: .5px solid red;
+   border-width: 2px;
+margin: 0 170px 0 170px;
+
+}
+.test{
+    padding-top: 40%;
+    font-size: 3rem;
+}
+.para-carousel{
+    margin: 0 40% 30px 40%;
+    letter-spacing: .8px;
+
+}
+.carousel{
+    margin-bottom: 20%;
+}
+
+
+
+
+
+
+
+
+
+/* news css */
+.news-title{ 
+   
+   padding: 6% 0 10% 10%;
+}
+.news-img img{
+    border-radius: 0%;
+    max-width: 100%;
+}
+
+.blue{
+ color: blue;
+}
+.news-margin{
+    margin: 10%;
+    padding-bottom: 10%;
+}
+
+.custom-pagination a{
+    display: inline-block;
+    width: 40px;
+    text-decoration: none;
+     text-align: center; 
+}
+.custom-pagination span{
+    display: inline-block;
+    width: 40px;
+    text-decoration: none;
+     text-align: center; 
+}
+.custom-pagination{
+    text-align: center;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+/* contact css */
+label{
+    color: white;
+    margin-bottom: 5px;
+}
+.form-group .form-control{
+ background: none;
+ border-radius: 0px;
+}
+.btn-primary{
+    background-color: #ff5733;
+    border: #ff5733;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:786px){
+    .one{
+        margin: 0 0 0 0px;
+    }
+    .title{
+        color: red;
+        font-size: 25px;
+        margin: 0 0 24px;
+     
+    }
+    .cc-title{
+
+        color: white;
+        font-size: 20px;
+        margin: 0 0 16px;
+    }
+    .navbar-site{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .sec-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 300px;
+        font-size: smaller;
+        padding: 0 0 0 0px;
+        margin: 0 0 40px 0px;
+        
+        }
+        .sec-title{
+            margin: 0 0 0 0px;
+            padding: 0 0 0 10px;
+        }
+        .sec-content{
+            color: rgba(255, 255, 255, 0.489);
+        font-size: small;
+        padding: 0 0 0 10px;
+      
+        }
+        .third-container{
+            margin: 0 0 0 0px;
+        }
+        .third-title{
+            margin: 0 0 20px 0px;
+        
+        }
+        .third-cc{
+            padding: 0 0 0 0px;
+            }
+            .container-four{
+                display: flex;
+                grid-template-columns: repeat(1,1fr);
+            }
+            hr.line1{
+                width: 100px;
+                height: 4px;
+                position: absolute;
+            background-color: red;
+          margin: 0 0 0 8px;
+            }
+            .fifth-container{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                
+            
+            }
+            .time{
+                margin-left: 0px;
+            }
+            .fifth-img{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            
+            }
+            .reverse{
+                display: flex;
+              flex-direction: column-reverse;
+            }
+          /* speaker css */
+          .para-carousel{
+            margin:0 0 20px 0;
+            /* letter-spacing: .8px; */
+        
+        }
+        .carousel{
+            margin-bottom: 20%;
+        }
+        /* news css */
+        .news-margin{
+            margin: 0%;
+        }
+}

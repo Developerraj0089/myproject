@@ -1,11 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/f86f59e8ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Index</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  </head>
+  <body>
+    <header class="site-navbar py-3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-11 col-xl-2">
+            <h1 class="mb-0">
+              <a href="./index.html" class="text-white title h2 mb-0"
+                >Work<span class="logo">shop</span></a
+              >
+            </h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right">
+              <ul class="site-menu mx-auto d-none d-lg-block">
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us </a></li>
+                <li><a href="./speaker.html">Speakers </a></li>
+                <li><a href="./news.html">news</a></li>
+                <li><a href="./contact.html">contacts</a></li>
+                <li class="cta"><a href="">buy tickets</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="container one"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-center"
+    >
+      <div class="float-xxl-start m-5 px-0 py-5 gap-5">
+        <h5 class="cc-title">Conference 2019</h5>
+        <h1 class="title">
+          Web Design <br />
+          Conference 2019
+        </h1>
+        <h5 class="cc-title">September 6th-7th, Minnesota, United States</h5>
+        <button class="but-1">BUY TICKETS</button>
+      </div>
+    </div>
+    <div class="container sec-container">
+      <div class="sec-title" data-aos="fade-down-right">Speakers</div>
+      <div class="sec-content" data-aos="fade-down-left">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error
+          deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab
+          voluptatibus. Minima architecto impedit eaque molestiae dicta quam.
+          Cum ducimus. Culpa distinctio aperiam
+        </p>
+      </div>
+    </div>
+    <!-- img1 -->
+    <div
+      class="container row align-items-center speaker third-container"
+      id="slide"
+      data-aos="fade-in"
+    >
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <img
+          src="	https://preview.colorlib.com/theme/workshop/images/person_1.jpg"
+          height="100%"
+          width="100%"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <h2 class="text-white third-title">Emely Peters</h2>
+        <div class="bio pl-lg-5 third-cc">
+          <span class="text-primary d-block mb-3">WEB DESIGNER</span>
+          <p class="mb-4 third-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error
+            deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab
+            voluptatibus. Minima architecto impedit eaque molestiae dicta quam.
+            Cum ducimus. Culpa distinctio aperiam
+          </p>
+          <p class="third-content">
+            Follow Emely —
+            <a href="https://www.facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/"><i class="fa fa-github"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- img2 -->
+    <div
+      class="container row reverse align-items-center speaker third-container"
+      id="slide"
+      data-aos="fade-in"
+    >
+      <div class="col-lg-6 ml-auto">
+        <h2 class="text-white third-title">Alex Anchor</h2>
+        <div class="bio pl-lg-5 third-cc">
+          <span class="text-primary d-block mb-3">WEB DESIGNER</span>
+          <p class="mb-4 third-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error
+            deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab
+            voluptatibus. Minima architecto impedit eaque molestiae dicta quam.
+            Cum ducimus. Culpa distinctio aperiam
+          </p>
+          <p class="third-content">
+            Follow Alex —
+            <a href="https://www.facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/"><i class="fa fa-github"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <img
+          src="	https://preview.colorlib.com/theme/workshop/images/person_2.jpg
+        "
+          height="100%"
+          width="100%"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- img3 -->
+    <div
+      class="container row align-items-center speaker third-container"
+      id="slide"
+      data-aos="flip-right"
+    >
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <img
+          src="	https://preview.colorlib.com/theme/workshop/images/person_3.jpg"
+          height="100%"
+          width="100%"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <h2 class="text-white third-title">Aaron Thomas</h2>
+        <div class="bio pl-lg-5 third-cc">
+          <span class="text-primary d-block mb-3">WEB DESIGNER</span>
+          <p class="mb-4 third-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error
+            deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab
+            voluptatibus. Minima architecto impedit eaque molestiae dicta quam.
+            Cum ducimus. Culpa distinctio aperiam
+          </p>
+          <p class="third-content">
+            Follow Aaron —
+            <a href="https://www.facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/"><i class="fa fa-github"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- img4 -->
+    <div
+      class="container row reverse align-items-center speaker third-container"
+    >
+      <div class="col-lg-6 ml-auto">
+        <h2 class="text-white third-title">Chris Mathews</h2>
+        <div class="bio pl-lg-5 third-cc">
+          <span class="text-primary d-block mb-3">WEB DESIGNER</span>
+          <p class="mb-4 third-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error
+            deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab
+            voluptatibus. Minima architecto impedit eaque molestiae dicta quam.
+            Cum ducimus. Culpa distinctio aperiam
+          </p>
+          <p class="third-content">
+            Follow Chris —
+            <a href="https://www.facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/"><i class="fa fa-github"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <img
+          src="	https://preview.colorlib.com/theme/workshop/images/person_4.jpg
+        "
+          height="100%"
+          width="100%"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="site-section">
+      <div class="container fifth-sec">
+        <div class="row mb-5 mt-5 mb-5">
+          <div class="col-lg-4">
+            <div class="site-section-heading fifth-title text-white">
+              <h2>Programs</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 pl-lg-5 fifth-cont">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              deleniti explicabo, tempore, obcaecati eveniet quod esse ad
+              deserunt voluptates quae rerum. Dicta sequi non veniam distinctio
+              iure magni nulla nisi.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 border-top border-bottom py-5">
+            <div class="row align-items-stretch fifth-container">
+              <div class="text-white mb-3 mb-md-0">
+                <span class="h4 time">8:00 AM</span>
+              </div>
+              <div class="text-white">
+                <h4>Design your open source strategy</h4>
+                Chris Mathews
+              </div>
+            </div>
+          </div>
+          <div class="col-12 border-top border-bottom py-5">
+            <div class="row align-items-stretch fifth-container">
+              <div class="text-white mb-3 mb-md-0">
+                <span class="h4 time">9:30 AM</span>
+              </div>
+              <div class="text-white">
+                <h4>Design your open source strategy</h4>
+                Chris Mathews
+              </div>
+            </div>
+          </div>
+          <div class="col-12 border-top border-bottom py-5">
+            <div class="row align-items-stretch fifth-container">
+              <div class="text-white mb-3 mb-md-0">
+                <span class="h4 time">10:30 AM</span>
+              </div>
+              <div class="text-white">
+                <h4>Design your open source strategy</h4>
+                Chris Mathews
+              </div>
+            </div>
+          </div>
+          <div class="col-12 border-top border-bottom py-5">
+            <div class="row align-items-stretch fifth-container">
+              <div class="text-white mb-3 mb-md-0">
+                <span class="h4 time">11:30 AM</span>
+              </div>
+              <div class="text-white">
+                <h4>Design your open source strategy</h4>
+                Chris Mathews
+              </div>
+            </div>
+          </div>
+          <div class="col-12 border-top border-bottom py-5">
+            <div class="row align-items-stretch fifth-container">
+              <div class="text-white mb-3 mb-md-0">
+                <span class="h4 time">12:30 AM</span>
+              </div>
+              <div class="text-white">
+                <h4>Design your open source strategy</h4>
+                Chris Mathews
+              </div>
+            </div>
+          </div>
+          <div class="col-12 border-top border-bottom py-5">
+            <div class="row align-items-stretch fifth-container">
+              <div class="text-white mb-3 mb-md-0">
+                <span class="h4 time">12:45 AM</span>
+              </div>
+              <div class="text-white">
+                <h4>Design your open source strategy</h4>
+                Chris Mathews
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sponserss -->
+    <!-- sponserss -->
+    <div class="site-section">
+      <div class="container fifth-sec">
+        <div class="row mb-5 mt-5">
+          <div class="col-lg-4">
+            <div class="site-section-heading fifth-title text-white">
+              <h2>Sponsers</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 pl-lg-5 fifth-cont">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              deleniti explicabo, tempore, obcaecati eveniet quod esse ad
+              deserunt voluptates quae rerum. Dicta sequi non veniam distinctio
+              iure magni nulla nisi.
+            </p>
+          </div>
+        </div>
+        <row class="mb-5 fifth-img">
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <img
+              src="	https://preview.colorlib.com/theme/workshop/images/logo_1.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <img
+              src="	https://preview.colorlib.com/theme/workshop/images/logo_2.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <img
+              src="	https://preview.colorlib.com/theme/workshop/images/logo_3.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <img
+              src="	https://preview.colorlib.com/theme/workshop/images/logo_4.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <img
+              src="	https://preview.colorlib.com/theme/workshop/images/logo_5.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <img
+              src="	https://preview.colorlib.com/theme/workshop/images/logo_6.png"
+              alt=""
+            />
+          </div>
+        </row>
+        <div class="row">
+          <div class="col-12 text-center pt-5">
+            <a href="" class="fifth-btn-custom"><span>Be a Sponser</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container fifth-sec">
+        <div class="row mb-5 mt-5">
+          <div class="col-lg-4">
+            <div class="site-section-heading fifth-title text-white">
+              <h2>News</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 pl-lg-5 fifth-cont">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              deleniti explicabo, tempore, obcaecati eveniet quod esse ad
+              deserunt voluptates quae rerum. Dicta sequi non veniam distinctio
+              iure magni nulla nisi.
+            </p>
+          </div>
+        </div>
+        <div class="row mb-5" data-aos="flip-down">
+          <div
+            class="col-md-6 col-lg-4 mb-5 mb-lg-0 text-white blog-entry"
+        
+          >
+            <a href="" class="d-block mb-4">
+              <img
+                src="https://preview.colorlib.com/theme/workshop/images/person_1.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </a>
+            <h2 class="mb-4">
+              <a href="">Design your open source strategy</a>
+            </h2>
+            <div class="mb-4 post-meta d-flex align-items-center">
+              <div class="mr-2">
+                <img
+                  src="	https://preview.colorlib.com/theme/workshop/images/person_1.jpg"
+                  height="100%"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+              <div class="text-white">
+                <span>By <a href="">Emely Peters</a></span> -
+                <span>Sep. 10, 2019</span>
+              </div>
+            </div>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+              sapiente. Expedita cupiditate, rerum blanditiis recusandae saepe
+              similique modi natus quam laborum dolore esse illum quis molestiae
+              eveniet voluptate autem? Cumque?
+            </p>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 mb-5 mb-lg-0 text-white blog-entry"
+            data-aos="flip-down"
+          >
+            <a href="" class="d-block mb-4">
+              <img
+                src="https://preview.colorlib.com/theme/workshop/images/person_1.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </a>
+            <h2 class="mb-4">
+              <a href="">Design your open source strategy</a>
+            </h2>
+            <div class="mb-4 post-meta d-flex align-items-center">
+              <div class="mr-2">
+                <img
+                  src="	https://preview.colorlib.com/theme/workshop/images/person_1.jpg"
+                  height="100%"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+              <div class="text-white">
+                <span>By <a href="">Emely Peters</a></span> -
+                <span>Sep. 10, 2019</span>
+              </div>
+            </div>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+              sapiente. Expedita cupiditate, rerum blanditiis recusandae saepe
+              similique modi natus quam laborum dolore esse illum quis molestiae
+              eveniet voluptate autem? Cumque?
+            </p>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 mb-5 mb-lg-0 text-white blog-entry"
+            data-aos="flip-down"
+          >
+            <a href="" class="d-block mb-4">
+              <img
+                src="https://preview.colorlib.com/theme/workshop/images/person_1.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </a>
+            <h2 class="mb-4">
+              <a href="">Design your open source strategy</a>
+            </h2>
+            <div class="mb-4 post-meta d-flex align-items-center">
+              <div class="mr-2">
+                <img
+                  src="	https://preview.colorlib.com/theme/workshop/images/person_1.jpg"
+                  height="100%"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+              <div class="text-white">
+                <span>By <a href="">Emely Peters</a></span> -
+                <span>Sep. 10, 2019</span>
+              </div>
+            </div>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+              sapiente. Expedita cupiditate, rerum blanditiis recusandae saepe
+              similique modi natus quam laborum dolore esse illum quis molestiae
+              eveniet voluptate autem? Cumque?
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center pt-5">
+            <a href="" class="fifth-btn-custom"><span>MORE BLOG POSTS</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 mb-5 text-white">
+            <h2 class="text-uppercase footer-heading mb-4">about event</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              alias natus est doloremque minima ipsa, quae numquam ut
+              consequatur molestias iure provident, deleniti incidunt quo
+              dolores fugit eos iste. Quaerat?
+            </p>
+          </div>
+          <div class="col-md-3 ml-auto text-white">
+            <h2 class="text-uppercase footer-heading mb-4">quick links</h2>
+            <ul class="list-unstyle">
+              <li>About Us</li>
+              <li>Speakers</li>
+              <li>Gallery</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2 class="text-uppercase footer-heading mb-4">connect with us</h2>
+            <p>
+              <a href="" class="p-2 pl-0"><i class="fa fa-facebook"></i></a>
+              <a href="" class="p-2"><i class="fa fa-twitter"></i></a>
+              <a href="" class="p-2"><i class="fa fa-youtube"></i></a>
+              <a href="" class="p-2"><i class="fa fa-instagram"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="border-top pt-5 text-white">
+              <p class="mt-0 copy">
+                Copyright © 2023 All rights reserved | This template is made
+                with <i class="fa fa-heart"></i> by Colorlib
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
+  </body>
 </html>
